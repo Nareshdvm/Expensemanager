@@ -1,9 +1,6 @@
 import React, { useContext, useState } from 'react';
 import ExpenseList from './ExpenseList';
-import axios from '../axios-orders';
 import { GlobalContext } from '../context/store';
-import { Link } from 'react-router-dom';
-import { ExpenseForm } from './ExpenseForm';
 import { Nav } from './nav';
 
 // import React from 'react';
