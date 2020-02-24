@@ -1,0 +1,24 @@
+.expenseList {
+    padding: 1em;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.308);
+    position: relative;
+    text-align: left;
+}
+
+
+.expenseList span {
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 0.85em;
+    text-indent: 1em;
+}
+
+.expenseList p {
+    text-align: left;
+    padding: 1em;
+}
+
+.expenseList i {
+    text-align: center;
+}
