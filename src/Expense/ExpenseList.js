@@ -3,15 +3,14 @@ import '../Expense/expense.css';
 import { GlobalContext } from '../context/store';
 
 export default function ExpenseList(props) {
-	const sign = props.exp < 0 ? '-' : '+';
-	console.log(sign);
+	const dig = props.exp < 0 ? '-' : '+';
 
 	const { deleteExp } = useContext(GlobalContext);
 	return (
 		<div
 			className={'row expenseList' + ' ' + (props.exp < 0 ? 'spend' : 'add')}>
 			<div className='col'>
-				{sign} ${Math.abs(props.exp)}
+				{dig} ${Math.abs(props.exp)}
 			</div>
 			<div className='col'>{props.Dec} </div>
 			<div className='col'>

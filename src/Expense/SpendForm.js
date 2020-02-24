@@ -11,7 +11,6 @@ export const SpendForm = () => {
 		history.push('/');
 	}
 	const { addExp } = useContext(GlobalContext);
-	console.log({ addExp });
 
 	const onSubmit = e => {
 		e.preventDefault();
