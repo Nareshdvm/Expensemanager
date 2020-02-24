@@ -3,10 +3,10 @@ import AppReducer from './AppReducer';
 
 const initialState = {
 	expenses: [
-		{ id: 10, text: 'Flower', amount: -20 },
-		{ id: 20, text: 'Salary', amount: 300 },
-		{ id: 30, text: 'Book', amount: -10 },
-		{ id: 40, text: 'Camera', amount: 150 }
+		{ id: 1, text: 'Flower', amount: -20 },
+		{ id: 2, text: 'Salary', amount: 300 },
+		{ id: 3, text: 'Book', amount: -10 },
+		{ id: 4, text: 'Camera', amount: 150 }
 	]
 };
 
@@ -20,7 +20,6 @@ export const GlobalProvider = ({ children }) => {
 			type: 'DELETE_EXP',
 			payload: id
 		});
-		console.log(id);
 	}
 
 	function addExp(expense) {

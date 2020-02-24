@@ -10,7 +10,6 @@ export const ExpenseForm = () => {
 		history.push('/');
 	}
 	const { addExp } = useContext(GlobalContext);
-	console.log({ addExp });
 
 	const onSubmit = e => {
 		e.preventDefault();
